@@ -3,4 +3,4 @@ Trying it
 **Trying bold**
 # Trying heading 1
 ## Trying heading 2
-[Link](http:www.youtube.com)
+[Link](https://brandonrbreeze.github.io/cse15l-lab-reports/)

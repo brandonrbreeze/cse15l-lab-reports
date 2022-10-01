@@ -1,4 +1,6 @@
 This is some text
 **This is some bold text**
-[Try me](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-![Image](https://i.kym-cdn.com/photos/images/newsfeed/000/615/064/597.png)
+[
+![Image](https://forums.terraria.org/data/avatars/o/17/17631.jpg?1421574790)
+](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+

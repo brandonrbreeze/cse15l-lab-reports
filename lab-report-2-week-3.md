@@ -110,8 +110,7 @@
     }
 
 ![Image](/SearchMain.png)
-
-** This is the main page for the search engine **
+**This is the main page for the search engine**
 
 * When the program is ran from the terminal we give is a unique port number.
 * Main takes that number and puts it into Server class method start as well as a new Handler object

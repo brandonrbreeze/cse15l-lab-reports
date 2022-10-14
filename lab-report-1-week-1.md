@@ -1,17 +1,22 @@
 **Step 1: Intstall VS Code**
-![Image0](/VS-code.png)
+![Image0](/vscode.png)
 
 To download VS Code go to https://code.visualstudio.com/.
 
+![Image9](/VS-code.png)
+
 Choose the appropraite version for your operating system.
-As you can see I already had VS code downloaded for my Mac.
+As you can see, I already had VS code downloaded for my Mac but this is what you will see when you start VS Code.
 
 **Step 2: Remotely Connecting**
 ![Image1](/remotely-connecting.png)
 
-To connect to a remote server open a terminal in VS Code and type: 
-ssh cs15lfa22zz@ieng6.ucsd.edu.  
-You will be prompted to enter a passcode.  After you enter you passcode properly you should be connected to the server.  If it's the first time connecting to the server you may be asked if you would like to continue connecting.  Type yes to continue.
+To connect to a remote server open a terminal in VS Code and type in the command: 
+ssh cs15lfa22zz@ieng6.ucsd.edu. 
+
+zz is a place holder for your unique account.  As seen in the images, my unique account is rg.
+ssh allows us to gain access to the server account.
+When connected, you will be prompted to enter a passcode.  After you enter you passcode properly you should be connected to the server.  If it's the first time connecting to the server you may be asked if you would like to continue connecting.  Type yes to continue.
 
 **Step 3: Running Some Commands**
 ![Image2](/someCommands.png)

@@ -133,3 +133,5 @@
 
 * If the url path contains "/search" then handRequest takes the string input after "?s=" and searchs the String Vector for all of the strings containing the input and outputs them to the screen
 
+# Part 2
+

@@ -1,7 +1,9 @@
 **Step 1: Intstall VS Code**
 ![Image0](/VS-code.png)
 
-To download VS Code go to https://code.visualstudio.com/ and choose the appropraite version for your operating system.
+To download VS Code go to https://code.visualstudio.com/.
+
+Choose the appropraite version for your operating system.
 As you can see I already had VS code downloaded for my Mac.
 
 **Step 2: Remotely Connecting**
@@ -40,6 +42,7 @@ Then next step was to make a loction on the server to put the public copy of the
 
 After the location is set, we are able to make secure copy using scp:
 scp /Users/brandonbreeze/.ssh/id_rsa.pub cs15lfa22rg@ieng6.ucsd.edu:~/.ssh/authorized_keys
+
 Interestingly, we didn't have to make authorized keys. It was automaticly configured.
 After the file is copied, we are now able to use ssh and scp commands with this server without having to give a password
 

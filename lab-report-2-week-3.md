@@ -108,3 +108,13 @@
             System.out.println("Server Started! Visit http://localhost:" + port + " to visit.");
         }
     }
+
+![Image](/SearchMain.png)
+
+** This is the main page for the search engine **
+
+* When the program is ran from the terminal we give is a unique port number.
+* Main takes that number and puts it into Server class method start as well as a new Handler object
+* Start creates a local server address by calling a method from class HttpServer called createContext. I'm gonna be honest I'm not sure what createContext does.
+* 
+

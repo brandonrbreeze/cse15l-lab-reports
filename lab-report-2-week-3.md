@@ -110,6 +110,7 @@
     }
 
 ![Image](/SearchMain.png)
+
 **This is the main page for the search engine**
 
 * When the program is ran from the terminal we give is a unique port number.

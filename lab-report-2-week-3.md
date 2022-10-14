@@ -113,8 +113,23 @@
 
 **This is the main page for the search engine**
 
-* When the program is ran from the terminal we give is a unique port number.
-* Main takes that number and puts it into Server class method start as well as a new Handler object
-* Start creates a local server address by calling a method from class HttpServer called createContext. I'm gonna be honest I'm not sure what createContext does.
-* 
+* When the program is ran from the terminal we give it a unique port number.
+* Main takes that number and puts it into Server class method called start.
+* Start take an interger for the port number and a URLHandler class object
+* Start creates a local server address by calling a method from class HttpServer called createContext. I'm gonna be honest, all I understand about createContext is that is creates a request entry point.
+* Once the server is started we can access it through a local browser as shown in the image
+* When it is accessed, handleRequest of class Handler is called
+* The Handler only contains one field, a public String Vector object
+* The input for handleRequest is the url object
+* The URL object calls getPath to get the url path
+* If the url path is just "/", then I set the handler to return "Welcome"
+* If the url path contains "/add" then handles takes the string input after "?s=" and puts it into the String Vector
+
+![Image1](/SearchAdd.png)
+
+* If the url path contains "/add" then handRequest takes the string input after "?s=" and puts it into the String Vector and outputs "added" to the screen
+
+![Image2](/SearchSearch.png)
+
+* If the url path contains "/search" the handRequest takes the string input after "?s=" and searchs the String Vector for all of the strings containing the input and outputs them to the screen
 

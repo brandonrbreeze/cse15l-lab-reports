@@ -75,7 +75,7 @@
     class ServerHttpHandler implements HttpHandler {
         URLHandler handler;
         ServerHttpHandler(URLHandler handler) {
-        this.handler = handler;
+            this.handler = handler;
         }
         public void handle(final HttpExchange exchange) throws IOException {
             // form return body after being handled by program

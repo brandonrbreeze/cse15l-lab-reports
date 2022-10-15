@@ -135,3 +135,53 @@
 
 # Part 2
 
+## File: ListExamples.java
+
+### Method: filter
+
+**Failure Inducing Input**
+    public class ListTests {
+        @Test 
+        public void testFilter() {
+            List<String> test = new ArrayList<>();
+            StringCheck check = new StringCheck();
+            test.add("hello");
+            test.add("");
+            test.add("bits");
+            List<String> expectedTest = new ArrayList<>();
+            expectedTest.add("hello");
+            expectedTest.add("bits");
+            assertEquals(expectedTest.toString() , ListExamples.filter(test, check).toString());
+        }
+    }
+
+* I made a class that implements the string checker interface. checkString returns true if a string is not empty
+* We expect the output to be a new string list without the empty string and in the same order
+
+**The Symptom**
+![Image3](/Listtestfail.png)
+
+* The actual output is not in the same order
+
+**The Bug**
+
+    static List<String> filter(List<String> list, StringChecker sc) {
+        List<String> result = new ArrayList<>();
+        for(String s: list) {
+            if(sc.checkString(s)) {
+            result.add(s);
+            }
+        }
+        return result;
+    }
+
+* result.add( 0, s ) constructed the new list in reverse. The fix was result.add(s);
+
+**The Connection**
+
+* The symptom was that the list was reversed
+* The bug cuased the symptom by adding to the list in reverse
+
+## File: ArrayExamples,java
+
+### Method: Reversed 

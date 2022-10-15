@@ -164,7 +164,7 @@
 * The actual output is not in the same order
 
 **The Bug**
-
+~~~~
     static List<String> filter(List<String> list, StringChecker sc) {
         List<String> result = new ArrayList<>();
         for(String s: list) {
@@ -174,6 +174,7 @@
         }
         return result;
     }
+~~~~
 
 * result.add( 0, s ) constructed the new list in reverse. The fix was result.add(s);
 

@@ -184,7 +184,8 @@
 **The Connection**
 
 * The symptom was that the list was reversed
-* The bug cuased the symptom by adding to the list in reverse
+* The bug caused the symptom by adding to the list in reverse
+* The bug caused the symptom with any input size larger than 1
 
 ## File: ArrayExamples.java
 
@@ -193,10 +194,48 @@
 **Failure Inducing Input**
 
 ~~~~
-@Test 
-public void testReverseInPlace2() {
-    int[] input1 = { 3, 2 };
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{ 2, 3 }, input1);
+@Test
+public void testReversed2() {
+    int[] input1 = { 1, 2 };
+    assertArrayEquals(new int[]{ 2, 1 }, ArrayExamples.reversed(input1));
 }
 ~~~~
+
+* We Expect the output to be in reverse order
+
+**The Symptom**
+
+![Image3](/arrayTestsymp.png)
+
+* The symptom was that is reverse returned an array of elements of 0
+
+**The Bug**
+
+
+~~~~
+ static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[arr.length - i - 1] = arr[i];
+    }
+    return newArray;
+  }
+~~~~
+
+* The bug was that the new list was not having any values assigned to it 
+
+~~~~
+arr[i] = newArray[arr.length - i - 1];
+~~~~
+
+* It should have been
+
+~~~~
+newArray[arr.length - i - 1] = arr[i];
+~~~~
+
+**The Connection**
+
+* The symptom was that the new array was essentailly emtpy
+* The bug was that no element were being put into the new list
+* The bug caused the symptom when given any input in which the elements in the array are non-zero

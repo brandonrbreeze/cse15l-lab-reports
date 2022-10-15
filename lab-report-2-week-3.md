@@ -164,6 +164,7 @@
 * The actual output is not in the same order
 
 **The Bug**
+
 ~~~~
     static List<String> filter(List<String> list, StringChecker sc) {
         List<String> result = new ArrayList<>();

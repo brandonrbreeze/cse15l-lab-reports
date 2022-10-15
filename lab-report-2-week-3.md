@@ -194,9 +194,9 @@
 
 ~~~~
 @Test 
-	public void testReverseInPlace2() {
-        int[] input1 = { 3, 2 };
-        ArrayExamples.reverseInPlace(input1);
-        assertArrayEquals(new int[]{ 2, 3 }, input1);
-    }
+public void testReverseInPlace2() {
+    int[] input1 = { 3, 2 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 2, 3 }, input1);
+}
 ~~~~

@@ -160,6 +160,7 @@
 * We expect the output to be a new string list without the empty string and in the same order
 
 **The Symptom**
+
 ![Image3](/Listtestfail.png)
 
 * The actual output is not in the same order
@@ -185,6 +186,6 @@
 * The symptom was that the list was reversed
 * The bug cuased the symptom by adding to the list in reverse
 
-## File: ArrayExamples,java
+## File: ArrayExamples.java
 
 ### Method: Reversed 

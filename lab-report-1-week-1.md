@@ -1,5 +1,5 @@
 **Step 1: Intstall VS Code**
-![Image0](/vscode.png)
+![Image0](/vsCode.png)
 
 To download VS Code go to https://code.visualstudio.com/.
 

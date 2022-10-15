@@ -207,7 +207,7 @@ public void testReversed2() {
 
 ![Image3](/arrayTestsymp.png)
 
-* The symptom was that is reverse returned an array of elements of 0
+* The symptom was that reverse returned an array of elements of 0
 
 **The Bug**
 

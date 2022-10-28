@@ -157,6 +157,18 @@
     }
 
 * I made a class that implements the string checker interface. checkString returns true if a string is not empty
+
+**String Checker Implementation**
+
+    class StringCheck implements StringChecker{
+        @Override
+        public boolean checkString(String s) {
+            if(!s.isEmpty()) return true;
+            return false;
+        }
+    }
+
+
 * We expect the output to be a new string list without the empty string and in the same order
 
 **The Symptom**

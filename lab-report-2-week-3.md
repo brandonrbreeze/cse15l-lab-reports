@@ -156,7 +156,7 @@
         }
     }
 
-* I made a class that implements the string checker interface. checkString returns true if a string is not empty
+* I made a class that implements the string checker interface called StringCheck. The method CheckString returns true if a string is not empty
 
 **String Checker Implementation**
 

@@ -141,7 +141,7 @@
 
 - this example shows how we can use -c to count how many expressions appear in multiple files. This can help is find how many file an expression appears
 
-**grep -c bio plos/*2.txt | wc**
+grep -c bio plos/*2.txt | wc
 
     brandonbreeze@brandons-air technical % grep -c bio plos/*2.txt | wc
         28      28     772

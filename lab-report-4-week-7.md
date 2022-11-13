@@ -1,4 +1,6 @@
-# Part 1
+# LAB 4
+
+## Part 1
 
 #### The task that I chose was: Changing the **start** parameter to **base**
 
@@ -57,7 +59,7 @@ Then we save and quit.
 
 
 
-# Part 2
+## Part 2
 
 - For the first attempt, it took me 120s to edit in Vs Code, 
 scp the file to the server, ssh, and test.  It takes a long time to scp, 

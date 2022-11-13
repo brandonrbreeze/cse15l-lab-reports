@@ -5,3 +5,5 @@
 The commands that my group came up with were:
 
 ``/start <enter>``
+
+![image1](start.png)

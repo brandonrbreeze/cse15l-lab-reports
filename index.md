@@ -7,3 +7,5 @@
 [Lab Report 3 W5](https://brandonrbreeze.github.io/cse15l-lab-reports/lab-report-3-week-5)
 
 [Lab Report 4 W7](https://brandonrbreeze.github.io/cse15l-lab-reports/lab-report-4-week-7)
+
+[Lab Report 5 W9](https://brandonrbreeze.github.io/cse15l-lab-reports/lab-report-5-week-9)

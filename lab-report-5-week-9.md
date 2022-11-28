@@ -113,7 +113,7 @@ The ouput is "File found", no error and an exit code of zero.
 
 These lines do not run, if branch does not evaluate.
 
-line 27: javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java 2> error.txt
+**line 27: javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java 2> error.txt**
 
 There is no standard output, the error is what the compiler outputs for the syntax error and it has a non-zero exit code. The error is redirected into a file.
 

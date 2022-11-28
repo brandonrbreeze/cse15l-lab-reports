@@ -68,6 +68,20 @@
 
 ```
 
+**http://localhost:4000/grade?repo=https://github.com/ucsd-cse15l-f22/list-methods-lab3**
+
+![image1](grade1.png)
+
+**http://localhost:4000/grade?repo=https://github.com/ucsd-cse15l-f22/list-methods-corrected**
+
+![image2](grade2.png)
+
+**http://localhost:4000/grade?repo=https://github.com/ucsd-cse15l-f22/list-methods-compile-error**
+
+![image3](grade3.png)
+
+
+
 
 
 
